@@ -1,0 +1,31 @@
+\documentclass{article}
+
+\title{Factory Method: Creational Design Pattern}
+\author{Md. Shanjinur Islam}
+\begin{document}
+	\maketitle
+	\newpage
+	\section{Intent}
+		\begin{itemize}
+			\item Define an interface for creating an object but let the subclass decide which class to instantiate.
+			\item Factory method lets a class defer instantiation to subclasses
+		\end{itemize}
+	\section{Benefits}
+		
+		\begin{itemize}
+			\item Code for interface rather than implementing concrete classes.
+			\item Less coupling. provides the developer to add additional updates without changing main codes.
+		\end{itemize}
+	
+	\section{Examples}
+
+		\subsection{Website Payment}
+			
+			A shopping website has only two payment methods. Credit Card, Cash On Delivery. As the popularity
+			of \textbf{bKash}, \textbf{Rocket} and \textbf{Upay} increased the marketing manager instructs the website developer to update the website's
+			backend such that for any future update on website's payment methods the payment options can be add easily.\\
+
+		\textbf{Solution using Factory Method attached in the folder}
+ 		
+	
+\end{document}
